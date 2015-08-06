@@ -1,0 +1,14 @@
+{
+  "name": "mynodeserver",
+  "version": "1.0.0",
+  "description": "my node server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "william saunders 2015",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.13.3"
+  }
+}
