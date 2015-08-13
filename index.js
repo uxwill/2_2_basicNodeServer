@@ -13,10 +13,12 @@ res.sendFile(__dirname+'/public/html/contacts.html')
 app.use(function(req, res, next){
 
 res.type('txt').send('Not found');
-res.status(404);
+res.status(404).end('error');
 
 
 });
+
+
 
 
 
